@@ -1,0 +1,63 @@
+<html> 
+<head> 
+
+<script> 
+var display = 0;
+ var count8 = 0;
+var in1 = 0;
+  var in2 = 0;
+  var displayletter = ""
+  function input1() 
+    {
+     in1 = document.getElementById("num1input").value; 
+       in2 = document.getElementById("num2input").value; 
+      if (in1> in2) {
+      for(let i=in1; i<=in2; i++) 
+      }
+    if (in2> in2) {
+      for(let i=in1; i<=in2; i++) 
+
+    }
+     if (i==8)
+     {
+      count8++;
+    "There are" + count8 + " 8s here in total!"
+     }
+      
+     
+     document.getElementById("space2").innerHTML = display + " " + i;
+    }
+    }
+</script>
+</head> 
+  <body>
+    <div> 
+    <p id = "num1button"> 
+    Number 1
+    </p>
+      <input id = "num1input"> 
+      </div>
+
+    <div> 
+    <p id = "num2button">
+      Number 2  
+    </p>
+      <input id = "num2input"> 
+    
+      <div> 
+        <button id = "submitButton" onclick = input1();>
+        Submit!
+        </button>
+      </div>
+      <div> 
+      <p id = "space"> 
+      
+      </div>
+        <div> 
+      <p id = "space2"> 
+      
+      </div>
+   
+    
+  </body>
+</html>
